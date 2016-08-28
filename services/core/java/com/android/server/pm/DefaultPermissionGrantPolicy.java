@@ -645,19 +645,20 @@ final class DefaultPermissionGrantPolicy {
                 grantRuntimePermissionsLPw(gmscorePackage, STORAGE_PERMISSIONS, userId);
             }
 
-            // Google Play Services
-            PackageParser.Package gmscorePackage = getSystemPackageLPr(
+            // Persistent Google Play Services
+            PackageParser.Package gmscorePackagePersistent = getSystemPackageLPr(
                     "com.google.android.gms.persistent");
-            if (gmscorePackage != null && doesPackageSupportRuntimePermissions(gmscorePackage)) {
-                grantRuntimePermissionsLPw(gmscorePackage, SENSORS_PERMISSIONS, userId);
-                grantRuntimePermissionsLPw(gmscorePackage, CALENDAR_PERMISSIONS, userId);
-                grantRuntimePermissionsLPw(gmscorePackage, CAMERA_PERMISSIONS, userId);
-                grantRuntimePermissionsLPw(gmscorePackage, CONTACTS_PERMISSIONS, userId);
-                grantRuntimePermissionsLPw(gmscorePackage, LOCATION_PERMISSIONS, userId);
-                grantRuntimePermissionsLPw(gmscorePackage, MICROPHONE_PERMISSIONS, userId);
-                grantRuntimePermissionsLPw(gmscorePackage, PHONE_PERMISSIONS, userId);
-                grantRuntimePermissionsLPw(gmscorePackage, SMS_PERMISSIONS, userId);
-                grantRuntimePermissionsLPw(gmscorePackage, STORAGE_PERMISSIONS, userId);
+            if (gmscorePackagePersistent != null
+            	  && doesPackageSupportRuntimePermissions(gmscorePackagePersistent)) {
+                grantRuntimePermissionsLPw(gmscorePackagePersistent, SENSORS_PERMISSIONS, userId);
+                grantRuntimePermissionsLPw(gmscorePackagePersistent, CALENDAR_PERMISSIONS, userId);
+                grantRuntimePermissionsLPw(gmscorePackagePersistent, CAMERA_PERMISSIONS, userId);
+                grantRuntimePermissionsLPw(gmscorePackagePersistent, CONTACTS_PERMISSIONS, userId);
+                grantRuntimePermissionsLPw(gmscorePackagePersistent, LOCATION_PERMISSIONS, userId);
+                grantRuntimePermissionsLPw(gmscorePackagePersistent, MICROPHONE_PERMISSIONS, userId);
+                grantRuntimePermissionsLPw(gmscorePackagePersistent, PHONE_PERMISSIONS, userId);
+                grantRuntimePermissionsLPw(gmscorePackagePersistent, SMS_PERMISSIONS, userId);
+                grantRuntimePermissionsLPw(gmscorePackagePersistent, STORAGE_PERMISSIONS, userId);
             }
 
 			// Google Connectivity Services
