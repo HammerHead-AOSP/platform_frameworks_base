@@ -191,7 +191,7 @@ public final class ShutdownThread extends Thread {
                     .setTitle(mRebootSafeMode
                             ? com.android.internal.R.string.reboot_safemode_title
                             : showRebootOption
-                                    ? com.android.internal.R.string.global_action_reboot
+                                    ? com.android.internal.R.string.factorytest_reboot
                                     : com.android.internal.R.string.power_off);
 
             if (!advancedReboot) {
@@ -364,11 +364,11 @@ public final class ShutdownThread extends Thread {
             }
         } else if (PowerManager.REBOOT_RECOVERY.equals(mReason)) {
             // Factory reset path. Set the dialog message accordingly.
-            pd.setTitle(context.getText(com.android.internal.R.string.global_action_reboot));
+            pd.setTitle(context.getText(com.android.internal.R.string.factorytest_reboot));
             pd.setMessage(context.getText(
                         com.android.internal.R.string.reboot_progress));
         } else if (mReboot) {
-            pd.setTitle(context.getText(com.android.internal.R.string.global_action_reboot));
+            pd.setTitle(context.getText(com.android.internal.R.string.factorytest_reboot));
             pd.setMessage(context.getText(com.android.internal.R.string.reboot_progress));
             pd.setIndeterminate(true);
         } else {
