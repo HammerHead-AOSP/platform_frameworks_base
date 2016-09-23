@@ -6216,8 +6216,6 @@ public final class Settings {
                 "camera_double_tap_power_gesture_disabled";
 
         /**
-
-        /**
          * Behavior of twilight on the device.
          * One of {@link #TWILIGHT_MODE_LOCKED_OFF}, {@link #TWILIGHT_MODE_LOCKED_ON}
          * or {@link #TWILIGHT_MODE_AUTO}.
@@ -6303,6 +6301,23 @@ public final class Settings {
          */
         public static final String MANAGED_PROFILE_CONTACT_REMOTE_SEARCH =
                 "managed_profile_contact_remote_search";
+
+        /**
+         * Beginning of Pure Secure Settings Additions
+         * @hide
+         */
+
+        /**
+         * Whether to display the ADB notification.
+         * @hide
+         */
+        public static final String ADB_NOTIFY = "adb_notify";
+
+        /**
+         * The TCP/IP port to run ADB on, or -1 for USB
+         * @hide
+         */
+        public static final String ADB_PORT = "adb_port";
 
         /**
          * This are the settings to be backed up.
@@ -8660,6 +8675,17 @@ public final class Settings {
          * @hide
          */
         public static final String SAFE_BOOT_DISALLOWED = "safe_boot_disallowed";
+
+        /**
+         * Beginning of Pure Global Settings Additions
+         * @hide
+         */
+
+        /**
+         * String to contain power menu actions
+         * @hide
+         */
+        public static final String POWER_MENU_ACTIONS = "power_menu_actions";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
