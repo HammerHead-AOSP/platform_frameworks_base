@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"전원 메뉴"</string>
+<string name="power_category">"전원 메뉴 설정"</string>
+<string name="actions_category">"전원 메뉴 항목"</string>
+<string name="power_menu_reboot_title">"재시작 메뉴"</string>
+<string name="power_menu_screenshot_title">"스크린샷"</string>
+<string name="power_menu_torch_title">"손전등"</string>
+<string name="power_menu_airplane_title">"비행기 모드"</string>
+<string name="power_menu_users_title">"사용자 전환"</string>
+<string name="power_menu_search_title">"검색"</string>
+<string name="power_menu_voice_title">"음성 검색"</string>
+<string name="power_menu_settings_title">"바로 가기 설정"</string>
+<string name="power_menu_lockdown_title">"기기 잠그기"</string>
+<string name="power_menu_bug_report_title">"버그 리포트"</string>
+<string name="power_menu_sound_title">"사운드 패널"</string>
+<string name="power_menu_bug_report_disabled">"개발자 설정에서 버그 리포팅이 비활성화되어 있습니다"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"전원 메뉴를 잠금 해제 화면에서도 보여줍니다"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"볼륨 로커"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"볼륨 버튼으로 깨우기"</string>
+<string name="button_wake_summary">"음악 설정을 무시합니다 (잠금 화면에서 누르면 화면이 켜집니다)"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"음악 설정"</string>
+<string name="volbtn_music_controls_summary">"화면이 꺼졌을 때, 볼륨키를 길게 누르면 음악 트랙을 찾습니다"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"키보드 커서 제어"</string>
+<string name="volbtn_cursor_control_off">"비활성화됨"</string>
+<string name="volbtn_cursor_control_on">"볼륨 업/다운 으로 커서를 왼쪽/오른쪽 으로 움직이게합니다"</string>
+<string name="volbtn_cursor_control_on_reverse">"볼륨 업/다운 으로 커서를 오른쪽/왼쪽 으로 움직이게합니다"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"볼륨키로 미디어 볼륨 조절"</string>
+<string name="volume_keys_control_media_stream_summary">"볼륨키로 미디어 스트림을 강제로 제어합니다"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"볼륨 버튼 바꾸기"</string>
+<string name="swap_volume_buttons_summary">"현재 회전에 맞춰 볼륨 버튼 작동을 변경 합니다"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"잠금 화면"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"미디어 커버 아트"</string>
+<string name="media_art_summary">"잠금 화면에 미디어 커버 아트를 활성화합니다"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"잠금 화면 손전등"</string>
+<string name="keyguard_torch_summary">"화면이 꺼져 있을 때, 전원 버튼을 길고 누르고 있으면 손전등이 켜집니다"</string>
+</resources>

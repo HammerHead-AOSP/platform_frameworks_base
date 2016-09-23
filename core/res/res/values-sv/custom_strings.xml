@@ -31,4 +31,19 @@
   <string name="reboot_confirm" product="default">Din telefon kommer att startas om.</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
   <string name="reboot_progress">Startar om\u2026</string>
+
+  <!-- Global Actions -->
+  <string name="global_action_screenshot">Skärmdump</string>
+  <string name="global_action_screen_record">Skärminspelning</string>
+  <string name="global_action_search">Sök</string>
+  <string name="global_action_voicesearch">Röstsökning</string>
+  <string name="global_action_current_user">Nuvarande</string>
+  <string name="global_action_torch">Ficklampa</string>
+
+  <!-- ADB over network notification -->
+  <string name="adb_net_active_notification_title">ADB över nätverk aktiverat</string>
+  <!-- ADB over USB and network notification -->
+  <string name="adb_both_active_notification_title">ADB över USB &amp; nätverket aktiverat</string>
+  <!-- ADB notification message-->
+  <string name="adb_active_generic_notification_message">Tryck för att inaktivera felsökning.</string>
 </resources>

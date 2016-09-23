@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"Ein/Aus-Menü"</string>
+<string name="power_category">"Ein/Aus-Menü-Optionen"</string>
+<string name="actions_category">"Ein/Aus-Menü-Einträge"</string>
+<string name="power_menu_reboot_title">"Neustart"</string>
+<string name="power_menu_screenshot_title">"Bildschirmfoto"</string>
+<string name="power_menu_torch_title">"Taschenlampe"</string>
+<string name="power_menu_airplane_title">"Flugmodus"</string>
+<string name="power_menu_users_title">"Benutzer wechseln"</string>
+<string name="power_menu_search_title">"Suche"</string>
+<string name="power_menu_voice_title">"Sprachsuche"</string>
+<string name="power_menu_settings_title">"Einstellungen"</string>
+<string name="power_menu_lockdown_title">"Gerät sperren"</string>
+<string name="power_menu_bug_report_title">"Fehler melden"</string>
+<string name="power_menu_sound_title">"Toneinstellungen"</string>
+<string name="power_menu_bug_report_disabled">"Fehlerberichte sind in Entwickleroptionen deaktiviert"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"Zeige Ein/Aus-Menü auf sicherem Sperrbildschirm"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"Lautstärkeregler"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"Durch Lautstärketaste aufwecken"</string>
+<string name="button_wake_summary">"Kann das Gerät nicht aufwecken, wenn die Musiksteuerung aktiv ist und Musik läuft"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"Musiksteuerung"</string>
+<string name="volbtn_music_controls_summary">"Bei ausgeschaltetem Bildschirm wird durch langes Drücken der Lautstärketasten zum vorigen/nächsten Musiktitel gewechselt"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"Tastatur-Cursor mit Lautstärketasten steuern"</string>
+<string name="volbtn_cursor_control_off">"Deaktiviert"</string>
+<string name="volbtn_cursor_control_on">"Lauter-/Leiser-Taste bewegt den Cursor nach links/rechts"</string>
+<string name="volbtn_cursor_control_on_reverse">"Lauter-/Leiser-Taste bewegt den Cursor nach rechts/links"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"Lautstärke-Tasten steuern Medienlautstärke"</string>
+<string name="volume_keys_control_media_stream_summary">"Steuerung des Medienstreams durch die Lautstärketasten erzwingen"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"Lautstärketaste tauschen"</string>
+<string name="swap_volume_buttons_summary">"Lautstärketastenaktion der aktuellen Ausrichtung des Gerätes anpassen"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"Sperrbildschirm"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"Medien-Titelbild"</string>
+<string name="media_art_summary">"Medien-Titelbild auf dem Sperrbildschirm aktivieren"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"Sperrbildschirm-Taschenlampe"</string>
+<string name="keyguard_torch_summary">"Langer Druck auf die Ein/Aus-Taste schaltet bei ausgeschaltetem Bildschirm die Taschenlampe ein"</string>
+</resources>

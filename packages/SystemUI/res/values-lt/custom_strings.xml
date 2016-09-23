@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"MatinimoMeniu"</string>
+<string name="power_category">"Maitinimo meniu parinktys"</string>
+<string name="actions_category">"Maitinimo meniu elementai"</string>
+<string name="power_menu_reboot_title">"Paleidimo iš naujo meniu"</string>
+<string name="power_menu_screenshot_title">"Ekrano nuotrauka"</string>
+<string name="power_menu_torch_title">"Žibintuvėlis"</string>
+<string name="power_menu_airplane_title">"Lėktuvo režimas"</string>
+<string name="power_menu_users_title">"Vartotojų keitiklis"</string>
+<string name="power_menu_search_title">"Paieška"</string>
+<string name="power_menu_voice_title">"Balso paieška"</string>
+<string name="power_menu_settings_title">"Nustatymų nuoroda"</string>
+<string name="power_menu_lockdown_title">"Įrenginio užrakinimas"</string>
+<string name="power_menu_bug_report_title">"Pranešimas apie triktį"</string>
+<string name="power_menu_sound_title">"Garso skydelis"</string>
+<string name="power_menu_bug_report_disabled">"Pranešimai apie triktis yra išjungtas kūrėjo parinktyse"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"Rodyti maitinimo meniu ant apsaugoto ekrano užrakto"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"Garsumo mygtukas"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"Pažadinimas garsumo mygtuku"</string>
+<string name="button_wake_summary">"Panaikina muzikos valdymą"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"Muzikos valdymas"</string>
+<string name="volbtn_music_controls_summary">"Kai ekranas išjungtas, ilgai spaudžiant garsumo mygtukus, keisis muzikos įrašai"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"Klaviatūros žymeklio valdymas"</string>
+<string name="volbtn_cursor_control_off">"Išjungtas"</string>
+<string name="volbtn_cursor_control_on">"Garsumo mygtuko paspaudimas į viršų/apačią pastumia žymeklį į kairę/dešinę"</string>
+<string name="volbtn_cursor_control_on_reverse">"Garsumo mygtuko paspaudimas į viršų/apačią pastumia žymeklį į dešinę/kairę"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"Garsumo mygtukai reguliuoja medijos garsą"</string>
+<string name="volume_keys_control_media_stream_summary">"Priversti garsumo mygtukus kontroliuoti medijos srautą"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"Garsumo mygtukų apvertimas"</string>
+<string name="swap_volume_buttons_summary">"Reguliuoti garso mygtukų veiksmus, remiantis esama padėtimi"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"Ekrano užraktas"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"Medijos viršeliai"</string>
+<string name="media_art_summary">"Įgalina medijos viršelius ekrano užrakte"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"Ekrano užrakto žibintuvėlis"</string>
+<string name="keyguard_torch_summary">"Ilgas maitinimo mygtuko paspaudimas su išjungtu ekranu įjungia žibintuvėlį"</string>
+</resources>

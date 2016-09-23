@@ -31,4 +31,19 @@
   <string name="reboot_confirm" product="default">您的手機將重新啟動。</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
   <string name="reboot_progress">正在重新啟動\u2026</string>
+
+  <!-- Global Actions -->
+  <string name="global_action_screenshot">擷取螢幕畫面</string>
+  <string name="global_action_screen_record">錄製螢幕</string>
+  <string name="global_action_search">搜尋</string>
+  <string name="global_action_voicesearch">語音搜尋</string>
+  <string name="global_action_current_user">目前</string>
+  <string name="global_action_torch">手電筒</string>
+
+  <!-- ADB over network notification -->
+  <string name="adb_net_active_notification_title">已啟用網路 ADB</string>
+  <!-- ADB over USB and network notification -->
+  <string name="adb_both_active_notification_title">已啟用 USB 和網路 ADB</string>
+  <!-- ADB notification message-->
+  <string name="adb_active_generic_notification_message">輕觸即可停用偵錯。</string>
 </resources>

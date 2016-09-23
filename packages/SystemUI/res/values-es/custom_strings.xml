@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"Menú de encendido"</string>
+<string name="power_category">"Opciones de menú de encendido"</string>
+<string name="actions_category">"Opciones de menú de encendido"</string>
+<string name="power_menu_reboot_title">"Reinicio"</string>
+<string name="power_menu_screenshot_title">"Captura de pantalla"</string>
+<string name="power_menu_torch_title">"Linterna"</string>
+<string name="power_menu_airplane_title">"Modo avión"</string>
+<string name="power_menu_users_title">"Cambiar de usuario"</string>
+<string name="power_menu_search_title">"Búsqueda"</string>
+<string name="power_menu_voice_title">"Búsqueda por voz"</string>
+<string name="power_menu_settings_title">"Acceso rápido a ajustes"</string>
+<string name="power_menu_lockdown_title">"Bloquear dispositivo"</string>
+<string name="power_menu_bug_report_title">"Informe de error"</string>
+<string name="power_menu_sound_title">"Panel de sonido"</string>
+<string name="power_menu_bug_report_disabled">"Reporte de errores está desactivado en la configuración de desarrollo"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"Mostrar menú de encendido en la pantalla de bloqueo seguro"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"Controles de volumen"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"Despertar con botones de volumen"</string>
+<string name="button_wake_summary">"Hacer que el dispositivo no se despierte si el control de la música está activo y se está reproduciendo música"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"Control de la música"</string>
+<string name="volbtn_music_controls_summary">"Cuando la pantalla esté apagada, mantener presionados los botones de volumen buscará pistas de música"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"Teclas de volumen controlan cursor"</string>
+<string name="volbtn_cursor_control_off">"Deshabilitado"</string>
+<string name="volbtn_cursor_control_on">"Los botones subir y bajar volumen moverán el cursor a izquierda y derecha respectivamente"</string>
+<string name="volbtn_cursor_control_on_reverse">"Volumen arriba/abajo mueve el cursor a la derecha/izquierda"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"Controlar volumen de llamada"</string>
+<string name="volume_keys_control_media_stream_summary">"Forzar botones de volumen para controlar medio multimedia"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"Intercambiar bbotones de volumen"</string>
+<string name="swap_volume_buttons_summary">"Ajusta los botones de volumen según la posición del terminal"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"Pantalla de Bloqueo"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"Carátulas del reproductor"</string>
+<string name="media_art_summary">"Activar carátulas del reproductor de música en la pantalla de bloqueo"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"Linterna en pantalla de bloqueo"</string>
+<string name="keyguard_torch_summary">"Encender la linterna al dejar pulsado el botón de encendido con la pantalla apagada"</string>
+</resources>

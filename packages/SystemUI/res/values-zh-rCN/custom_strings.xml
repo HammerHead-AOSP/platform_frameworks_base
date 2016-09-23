@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"电源按钮菜单"</string>
+<string name="power_category">"电源菜单选项"</string>
+<string name="actions_category">"电源菜单项"</string>
+<string name="power_menu_reboot_title">"重启菜单"</string>
+<string name="power_menu_screenshot_title">"截图"</string>
+<string name="power_menu_torch_title">"手电筒"</string>
+<string name="power_menu_airplane_title">"飞行模式"</string>
+<string name="power_menu_users_title">"切换用户"</string>
+<string name="power_menu_search_title">"搜索​​​​"</string>
+<string name="power_menu_voice_title">"语音搜索"</string>
+<string name="power_menu_settings_title">"设置快捷方式"</string>
+<string name="power_menu_lockdown_title">"锁定设备"</string>
+<string name="power_menu_bug_report_title">"报告错误"</string>
+<string name="power_menu_sound_title">"声音面板"</string>
+<string name="power_menu_bug_report_disabled">"开发者选项中已禁用错误报告"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"安全锁屏时显示电源菜单"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"音量键"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"音量键唤醒"</string>
+<string name="button_wake_summary">"覆盖音乐控制功能"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"音乐控制"</string>
+<string name="volbtn_music_controls_summary">"关屏时长按音量键跳转音乐曲目"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"键盘光标控制"</string>
+<string name="volbtn_cursor_control_off">"已禁用"</string>
+<string name="volbtn_cursor_control_on">"音量键上/下控制光标左/右移动"</string>
+<string name="volbtn_cursor_control_on_reverse">"音量键上/下控制光标右/左移动"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"音量键控制媒体音量"</string>
+<string name="volume_keys_control_media_stream_summary">"强制音量键控制媒体流"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"音量按钮交换"</string>
+<string name="swap_volume_buttons_summary">"根据当前屏幕方向调整音量键功能"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"锁屏"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"媒体封面"</string>
+<string name="media_art_summary">"在锁屏界面显示媒体封面"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"锁屏界面手电筒"</string>
+<string name="keyguard_torch_summary">"屏幕关闭时长按电源键打开手电"</string>
+</resources>

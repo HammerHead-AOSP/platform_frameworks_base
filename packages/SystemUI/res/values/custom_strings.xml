@@ -15,6 +15,54 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar tuner</string>
+    <!-- powermenu fragment -->
+    <string name="powermenu_frag_title">Power Menu</string>
+    <string name="power_category">Power menu options</string>
+    <string name="actions_category">Power menu items</string>
+    <!-- Power menu customization -->
+    <string name="power_menu_reboot_title">Reboot</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_torch_title">Flashlight</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_users_title">User switcher</string>
+    <string name="power_menu_search_title">Search</string>
+    <string name="power_menu_voice_title">Voice search</string>
+    <string name="power_menu_settings_title">Settings shortcut</string>
+    <string name="power_menu_lockdown_title">Device lockdown</string>
+    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_sound_title">Sound panel</string>
+    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Show power menu on secure lock screen</string>
+
+    <!-- volumerocker fragment -->
+    <string name="volrock_frag_title">Volume rocker</string>
+    <!-- Volume button wake -->
+    <string name="volbtn_wake_device_title">Volume button wake</string>
+    <string name="button_wake_summary">May not wake device if music control is active and music is playing</string>
+    <!-- Volume music control -->
+    <string name="volbtn_music_controls_title">Music control</string>
+    <string name="volbtn_music_controls_summary">When the screen is off, long pressing the volume keys will seek music tracks</string>
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
+    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <!-- Volume key controls media stream -->
+    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
+    <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+    <!-- Volume key orientation swap -->
+    <string name="swap_volume_buttons_title">Volume button swap</string>
+    <string name="swap_volume_buttons_summary">Adjust volume buttons action based on current orientation</string>
+
+    <!-- Lockscreen Fragment -->
+    <string name="lockscreen_frag_title">Lockscreen</string>
+    <!-- Lockscreen album art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <!-- Lockscreen torch -->
+    <string name="keyguard_torch_title">Lockscreen torch</string>
+    <string name="keyguard_torch_summary">Longpress power button with screen off turns on torch</string>
+
+
 </resources>

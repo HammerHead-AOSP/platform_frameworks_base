@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"Powermenu"</string>
+<string name="power_category">"Powermenu opties"</string>
+<string name="actions_category">"Powermenu items"</string>
+<string name="power_menu_reboot_title">"Herstart menu"</string>
+<string name="power_menu_screenshot_title">"Schermafbeelding"</string>
+<string name="power_menu_torch_title">"Zaklamp"</string>
+<string name="power_menu_airplane_title">"Vliegtuigmodus"</string>
+<string name="power_menu_users_title">"Gebruiker wisselen"</string>
+<string name="power_menu_search_title">"Zoeken"</string>
+<string name="power_menu_voice_title">"Spraakgestuurd zoeken"</string>
+<string name="power_menu_settings_title">"Instellingen snelkoppeling"</string>
+<string name="power_menu_lockdown_title">"Apparaat vergrendelen"</string>
+<string name="power_menu_bug_report_title">"Bug rapport"</string>
+<string name="power_menu_sound_title">"Geluidspaneel"</string>
+<string name="power_menu_bug_report_disabled">"Bug rapportering is uitgeschakeld in ontwikkelaars opties"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"Toon powermenu op beveiligd vergrendelscherm"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"Volumeknop"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"Volumeknop ontwaken"</string>
+<string name="button_wake_summary">"Overschrijft muziekbesturing"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"Muziekbesturing"</string>
+<string name="volbtn_music_controls_summary">"Wanneer het scherm uit is, zal langdurig drukken op de volumeknoppen muzieknummers zoeken"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"Toetsenbord cursor besturing"</string>
+<string name="volbtn_cursor_control_off">"Uitgeschakeld"</string>
+<string name="volbtn_cursor_control_on">"Volume omhoog/omlaag beweegt de cursor links/rechts"</string>
+<string name="volbtn_cursor_control_on_reverse">"Volume omhoog/omlaag beweegt de cursor rechts/links"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"Volumeknoppen bedienen mediavolume"</string>
+<string name="volume_keys_control_media_stream_summary">"Volumeknoppen forceren de mediavolume te bedienen"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"Volumeknoppen omwisselen"</string>
+<string name="swap_volume_buttons_summary">"Pas de volumeknop aan op basis van de huidige schermoriëntatie"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"Vergrendelscherm"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"Mediaomslag afbeelding"</string>
+<string name="media_art_summary">"Mediaomslag afbeelding op vergrendelscherm inschakelen"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"Vergrendelscherm zaklamp"</string>
+<string name="keyguard_torch_summary">"Aan/uit knop inhouden met scherm uit schakelt zaklamp in"</string>
+</resources>

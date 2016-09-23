@@ -31,4 +31,19 @@
   <string name="reboot_confirm" product="default">Telefonunuz yeniden başlatılacaktır.</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
   <string name="reboot_progress">Yeniden başlatılıyor\u2026</string>
+
+  <!-- Global Actions -->
+  <string name="global_action_screenshot">Ekran görüntüsü</string>
+  <string name="global_action_screen_record">Ekran kaydı</string>
+  <string name="global_action_search">Arama</string>
+  <string name="global_action_voicesearch">Sesli Arama</string>
+  <string name="global_action_current_user">Güncel</string>
+  <string name="global_action_torch">Flaş Işığı</string>
+
+  <!-- ADB over network notification -->
+  <string name="adb_net_active_notification_title">Ağ üzerinden ADB etkin</string>
+  <!-- ADB over USB and network notification -->
+  <string name="adb_both_active_notification_title">USB &amp; Ağ üzerinden ADB etkin</string>
+  <!-- ADB notification message-->
+  <string name="adb_active_generic_notification_message">Hata ayıklamayı devre dışı bırakmak için dokunun.</string>
 </resources>

@@ -31,4 +31,19 @@
   <string name="reboot_confirm" product="default">휴대전화가 재시작됩니다.</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
   <string name="reboot_progress">재시작 중\u2026</string>
+
+  <!-- Global Actions -->
+  <string name="global_action_screenshot">스크린샷</string>
+  <string name="global_action_screen_record">화면 녹화</string>
+  <string name="global_action_search">검색</string>
+  <string name="global_action_voicesearch">음성 검색</string>
+  <string name="global_action_current_user">현재 사용자</string>
+  <string name="global_action_torch">손전등</string>
+
+  <!-- ADB over network notification -->
+  <string name="adb_net_active_notification_title">무선 네트워크를 통한 ADB 사용</string>
+  <!-- ADB over USB and network notification -->
+  <string name="adb_both_active_notification_title">USB &amp; 무선 네트워크를 통해 ADB 사용</string>
+  <!-- ADB notification message-->
+  <string name="adb_active_generic_notification_message">디버깅을 비활성화 하려면 터치하세요.</string>
 </resources>

@@ -31,4 +31,19 @@
   <string name="reboot_confirm" product="default">Θα γίνει επανεκκίνηση του τηλεφώνου σας.</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
   <string name="reboot_progress">Επανεκκίνηση\u2026</string>
+
+  <!-- Global Actions -->
+  <string name="global_action_screenshot">Στιγμιότυπο οθόνης</string>
+  <string name="global_action_screen_record">Εγγραφή Οθόνης</string>
+  <string name="global_action_search">Αναζήτηση</string>
+  <string name="global_action_voicesearch">Φωνητική Αναζήτηση</string>
+  <string name="global_action_current_user">Τρέχουσα</string>
+  <string name="global_action_torch">Flashlight</string>
+
+  <!-- ADB over network notification -->
+  <string name="adb_net_active_notification_title">ADB μέσω δικτύου ενεργοποιημένο</string>
+  <!-- ADB over USB and network notification -->
+  <string name="adb_both_active_notification_title">ADB μέσω δικτύου USB &amp; ενεργοποιημένο</string>
+  <!-- ADB notification message-->
+  <string name="adb_active_generic_notification_message">Αγγίξτε για απενεργοποίηση του εντοπισμού σφαλμάτων.</string>
 </resources>

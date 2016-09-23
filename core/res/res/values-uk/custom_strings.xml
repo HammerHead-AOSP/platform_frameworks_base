@@ -31,4 +31,19 @@
   <string name="reboot_confirm" product="default">Ваш телефон буде перезавантажено.</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
   <string name="reboot_progress">Перезавантаження\u2026</string>
+
+  <!-- Global Actions -->
+  <string name="global_action_screenshot">Знімок екрана</string>
+  <string name="global_action_screen_record">Запис з екрану</string>
+  <string name="global_action_search">Пошук</string>
+  <string name="global_action_voicesearch">Голосовий пошук</string>
+  <string name="global_action_current_user">Поточний</string>
+  <string name="global_action_torch">Ліхтарик</string>
+
+  <!-- ADB over network notification -->
+  <string name="adb_net_active_notification_title">Увімкнено функцію ADB по мережі</string>
+  <!-- ADB over USB and network notification -->
+  <string name="adb_both_active_notification_title">Увімкнено функцію ADB по USB та мережі</string>
+  <!-- ADB notification message-->
+  <string name="adb_active_generic_notification_message">Торкніться, щоб вимкнути налагодження.</string>
 </resources>

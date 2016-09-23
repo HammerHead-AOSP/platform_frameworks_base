@@ -17,33 +17,33 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Reboot Dialog -->
-  <string name="global_action_reboot">Redémarrer</string>
+  <string name="global_action_reboot">Paleidimas iš naujo</string>
   <!-- Button to reboot the phone in reboot menu -->
-  <string name="reboot_reboot">Redémarrer</string>
+  <string name="reboot_reboot">Paleisti iš naujo</string>
   <!-- Button to reboot the phone into recovery in reboot menu-->
-  <string name="reboot_recovery">Recovery</string>
+  <string name="reboot_recovery">Atkūrimo režimas</string>
   <!-- Button to reboot the phone into bootloader in reboot menu -->
-  <string name="reboot_bootloader">Bootloader</string>
+  <string name="reboot_bootloader">Paleidimo režimas</string>
   <!-- Button to soft reboot the device in reboot menu -->
-  <string name="reboot_soft">Redémarrage logiciel</string>
+  <string name="reboot_soft">Paleisti iš naujo OS</string>
   <!-- Reboot Confirmation Dialog. -->
-  <string name="reboot_confirm" product="tablet">Votre tablette va redémarrer.</string>
-  <string name="reboot_confirm" product="default">Votre téléphone va redémarrer.</string>
+  <string name="reboot_confirm" product="tablet">Jūsų įrenginys bus paleistas iš naujo.</string>
+  <string name="reboot_confirm" product="default">Jūsų įrenginys bus paleistas iš naujo.</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
-  <string name="reboot_progress">Redémarrage\u2026</string>
+  <string name="reboot_progress">Paleidžiama iš naujo\u2026</string>
 
   <!-- Global Actions -->
-  <string name="global_action_screenshot">Capture d\'écran</string>
-  <string name="global_action_screen_record">Capture vidéo</string>
-  <string name="global_action_search">Rechercher</string>
-  <string name="global_action_voicesearch">Recherche vocale</string>
-  <string name="global_action_current_user">En cours</string>
-  <string name="global_action_torch">Lampe de poche</string>
+  <string name="global_action_screenshot">Ekrano nuotrauka</string>
+  <string name="global_action_screen_record">Ekrano įrašymas</string>
+  <string name="global_action_search">Paieška</string>
+  <string name="global_action_voicesearch">Paieška balsu</string>
+  <string name="global_action_current_user">Dabartinis</string>
+  <string name="global_action_torch">Žibintuvėlis</string>
 
   <!-- ADB over network notification -->
-  <string name="adb_net_active_notification_title">ADB sur réseau activé</string>
+  <string name="adb_net_active_notification_title">ADB per tinklą įjungtas</string>
   <!-- ADB over USB and network notification -->
-  <string name="adb_both_active_notification_title">ADB sur USB &amp; réseau activé</string>
+  <string name="adb_both_active_notification_title">ADB per USB ir tinklą įjungtas</string>
   <!-- ADB notification message-->
-  <string name="adb_active_generic_notification_message">Appuyez pour désactiver le débogage.</string>
+  <string name="adb_active_generic_notification_message">Palieskite, kad išjungtumėte derinimą.</string>
 </resources>

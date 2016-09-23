@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016 The Pure Nexus Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navbar tuner</string>
+
+    <!-- Power Menu fragment -->
+    <string name="powermenu_frag_title">Меню выключения</string>
+    <string name="power_category">Варианты выключения</string>
+    <string name="actions_category">Пункты меню выключения</string>
+    <!-- Power menu customization -->
+    <string name="power_menu_reboot_title">Перезагрузка</string>
+    <string name="power_menu_screenshot_title">Снимок экрана</string>
+    <string name="power_menu_torch_title">Фонарик</string>
+    <string name="power_menu_airplane_title">Режим полёта</string>
+    <string name="power_menu_users_title">Переключение пользователей</string>
+    <string name="power_menu_search_title">Поиск</string>
+    <string name="power_menu_voice_title">Голосовой поиск</string>
+    <string name="power_menu_settings_title">Ярлык настроек</string>
+    <string name="power_menu_lockdown_title">Блокировка устройства</string>
+    <string name="power_menu_bug_report_title">Отчёт об ошибке</string>
+    <string name="power_menu_sound_title">Звуковая панель</string>
+    <string name="power_menu_bug_report_disabled">Сообщения об ошибках выключены в настройках разработчика</string>
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Показывать меню выключения на экране блокировки</string>
+
+    <!-- volumerocker fragment -->
+    <string name="volrock_frag_title">Кнопки громкости</string>
+    <!-- Volume button wake -->
+    <string name="volbtn_wake_device_title">Пробуждение кнопками громкости</string>
+    <string name="button_wake_summary">Может не пробудить устройство, если управление музыкой активно и играет музыка</string>
+    <!-- Volume button track change -->
+    <string name="volbtn_music_controls_title">Управление музыкой кнопками громкости</string>
+    <string name="volbtn_music_controls_summary">Когда экран выключен, долгое нажатие клавиш громкости будет переключать треки</string>
+    <!-- Volume key cursor control -->
+    <string name="volbtn_cursor_control_title">Перемещение курсора кнопками громкости</string>
+    <string name="volbtn_cursor_control_off">Отключено</string>
+    <string name="volbtn_cursor_control_on">Громкость вверх/вниз перемещает курсор влево/вправо</string>
+    <string name="volbtn_cursor_control_on_reverse">Громкость вверх/вниз перемещение курсора вправо/влево</string>
+    <!-- Volume key controls ring stream -->
+    <string name="volume_keys_control_media_stream_title">Регулирование громкости мультимедиа кнопками громкости</string>
+    <string name="volume_keys_control_media_stream_summary">Управлять мультимедиа кнопками громкости</string>
+    <!-- Volume key orientation swap -->
+    <string name="swap_volume_buttons_title">Кнопки громкости при автоповороте</string>
+    <string name="swap_volume_buttons_summary">Менять назначение кнопок регулировки громкости согласно ориентации экрана</string>
+ 
+    <!-- Lockscreen Fragment -->
+    <string name="lockscreen_frag_title">Экран блокировки</string>
+    <!-- Lockscreen torch -->
+    <string name="keyguard_torch_title">Фонарик на экране блокировки</string>
+    <string name="keyguard_torch_summary">Долгое нажатие кнопки блокировки с выключенным экраном включает фонарик</string>
+    <!-- Lockscreen cover art -->
+    <string name="media_art_title">Обложка альбома</string>
+    <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
+
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"Menu d\'alimentation"</string>
+<string name="power_category">"Options du menu d'alimentation"</string>
+<string name="actions_category">"Éléments du menu d'alimentation"</string>
+<string name="power_menu_reboot_title">"Redémarrer"</string>
+<string name="power_menu_screenshot_title">"Capture d'écran"</string>
+<string name="power_menu_torch_title">"Lampe de poche"</string>
+<string name="power_menu_airplane_title">"Mode Avion"</string>
+<string name="power_menu_users_title">"Sélecteur d'utilisateur"</string>
+<string name="power_menu_search_title">"Rechercher"</string>
+<string name="power_menu_voice_title">"Recherche vocale"</string>
+<string name="power_menu_settings_title">"Raccourci vers les paramètres"</string>
+<string name="power_menu_lockdown_title">"Verrouillage de l'appareil"</string>
+<string name="power_menu_bug_report_title">"Rapport de bogue"</string>
+<string name="power_menu_sound_title">"Panneau de volume"</string>
+<string name="power_menu_bug_report_disabled">"Le signalement de bogue est désactivé dans les paramètres de développement"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"Afficher le menu d'alimentation sur l'écran de verrouillage"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"Contrôle du volume"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"Réveil par les boutons de volume"</string>
+<string name="button_wake_summary">"Peut ne pas réveiller l'appareil si le contrôle de la musique est actif et si de la musique est en cours de lecture"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"Contrôle de la musique"</string>
+<string name="volbtn_music_controls_summary">"Un appui long sur les touches de volume permettra de changer de piste lorsque l'écran est éteint"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"Contrôle du curseur avec les touches de volume"</string>
+<string name="volbtn_cursor_control_off">"Désactivé"</string>
+<string name="volbtn_cursor_control_on">"Volume haut/bas déplace le curseur vers la gauche/droite"</string>
+<string name="volbtn_cursor_control_on_reverse">"Volume haut/bas déplace le curseur vers la droite/gauche"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"Les touches de volume contrôlent le volume des médias"</string>
+<string name="volume_keys_control_media_stream_summary">"Forcer les touches de volume à contrôler le flux de médias"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"Permuter les boutons de volume"</string>
+<string name="swap_volume_buttons_summary">"Permuter les boutons de volume en fonction de l'orientation actuelle"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"Écran de verrouillage"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"Pochette d'album"</string>
+<string name="media_art_summary">"Activez la pochette d'album sur l'écran de verrouillage"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"Lampe torche sur l'écran de verrouillage"</string>
+<string name="keyguard_torch_summary">"Appui long sur le bouton d'alimentation avec l'écran éteint pour allumer la lampe torche"</string>
+</resources>

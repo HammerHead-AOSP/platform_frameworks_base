@@ -31,4 +31,19 @@
   <string name="reboot_confirm" product="default">Telefon wird neu gestartet</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
   <string name="reboot_progress">Neustart\u2026</string>
+
+  <!-- Global Actions -->
+  <string name="global_action_screenshot">Bildschirmfoto</string>
+  <string name="global_action_screen_record">Bildschirmaufnahme</string>
+  <string name="global_action_search">Suche</string>
+  <string name="global_action_voicesearch">Sprachsuche</string>
+  <string name="global_action_current_user">Aktuell</string>
+  <string name="global_action_torch">Taschenlampe</string>
+
+  <!-- ADB over network notification -->
+  <string name="adb_net_active_notification_title">ADB über Netzwerk aktiviert</string>
+  <!-- ADB over USB and network notification -->
+  <string name="adb_both_active_notification_title">ADB über USB &amp; Netzwerk aktiviert</string>
+  <!-- ADB notification message-->
+  <string name="adb_active_generic_notification_message">Berühren, um Debugging zu deaktivieren.</string>
 </resources>

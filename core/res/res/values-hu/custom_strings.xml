@@ -31,4 +31,19 @@
   <string name="reboot_confirm" product="default">A készülék újraindul.</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
   <string name="reboot_progress">Újraindítás\u2026</string>
+
+  <!-- Global Actions -->
+  <string name="global_action_screenshot">Képernyőmentés</string>
+  <string name="global_action_screen_record">Képernyő felvétel</string>
+  <string name="global_action_search">Keresés</string>
+  <string name="global_action_voicesearch">Hangalapú keresés</string>
+  <string name="global_action_current_user">Jelenlegi</string>
+  <string name="global_action_torch">Zseblámpa</string>
+
+  <!-- ADB over network notification -->
+  <string name="adb_net_active_notification_title">ADB hálózaton keresztül engedélyezve</string>
+  <!-- ADB over USB and network notification -->
+  <string name="adb_both_active_notification_title">ADB USB &amp; hálózaton keresztül engedélyezve</string>
+  <!-- ADB notification message-->
+  <string name="adb_active_generic_notification_message">Érintse meg a hibakeresés letiltásához.</string>
 </resources>

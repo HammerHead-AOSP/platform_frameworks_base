@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"電源選單"</string>
+<string name="power_category">"電源選單選項"</string>
+<string name="actions_category">"電源選單項目"</string>
+<string name="power_menu_reboot_title">"重新啟動"</string>
+<string name="power_menu_screenshot_title">"擷取螢幕畫面"</string>
+<string name="power_menu_torch_title">"手電筒"</string>
+<string name="power_menu_airplane_title">"飛航模式"</string>
+<string name="power_menu_users_title">"切換使用者"</string>
+<string name="power_menu_search_title">"搜尋"</string>
+<string name="power_menu_voice_title">"語音搜尋"</string>
+<string name="power_menu_settings_title">"設定捷徑"</string>
+<string name="power_menu_lockdown_title">"鎖定裝置"</string>
+<string name="power_menu_bug_report_title">"回報錯誤"</string>
+<string name="power_menu_sound_title">"音量面板"</string>
+<string name="power_menu_bug_report_disabled">"開發人員選項中的回報錯誤選項目被停用"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"在安全性鎖定畫面顯示電源選單"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"音量鍵"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"音量鍵喚醒"</string>
+<string name="button_wake_summary">"啟用音樂控制且音樂正在播放時可能無法喚醒裝置"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"音樂控制"</string>
+<string name="volbtn_music_controls_summary">"螢幕關閉時，長按音量鍵將切換曲目"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"音量鍵游標控制"</string>
+<string name="volbtn_cursor_control_off">"已停用"</string>
+<string name="volbtn_cursor_control_on">"上/下音量鍵左/右移動游標"</string>
+<string name="volbtn_cursor_control_on_reverse">"上/下音量鍵右/左移動游標"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"音量鍵控制媒體音量"</string>
+<string name="volume_keys_control_media_stream_summary">"強制使用音量鍵控制媒體串流"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"音量鍵交換"</string>
+<string name="swap_volume_buttons_summary">"根據螢幕旋轉方向調整音量鍵動作"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"鎖定螢幕"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"媒體封面"</string>
+<string name="media_art_summary">"在鎖定畫面上啟用媒體封面"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"鎖定畫面手電筒"</string>
+<string name="keyguard_torch_summary">"螢幕關閉時長按電源鍵以開起手電筒"</string>
+</resources>

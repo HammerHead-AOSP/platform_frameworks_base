@@ -31,4 +31,19 @@
   <string name="reboot_confirm" product="default">El teléfono se reiniciará.</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
   <string name="reboot_progress">Reiniciando\u2026</string>
+
+  <!-- Global Actions -->
+  <string name="global_action_screenshot">Captura de pantalla</string>
+  <string name="global_action_screen_record">Grabar pantalla</string>
+  <string name="global_action_search">Búsqueda</string>
+  <string name="global_action_voicesearch">Búsqueda por voz</string>
+  <string name="global_action_current_user">Actual</string>
+  <string name="global_action_torch">Linterna</string>
+
+  <!-- ADB over network notification -->
+  <string name="adb_net_active_notification_title">ADB por red activado</string>
+  <!-- ADB over USB and network notification -->
+  <string name="adb_both_active_notification_title">ADB por USB y red activado</string>
+  <!-- ADB notification message-->
+  <string name="adb_active_generic_notification_message">Toque para deshabilitar el modo de depuración.</string>
 </resources>

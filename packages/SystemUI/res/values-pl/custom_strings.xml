@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"Menu zasilania"</string>
+<string name="power_category">"Opcje menu zasilania"</string>
+<string name="actions_category">"Elementy menu zasilania"</string>
+<string name="power_menu_reboot_title">"Menu restartu"</string>
+<string name="power_menu_screenshot_title">"Zrzut ekranu"</string>
+<string name="power_menu_torch_title">"Flashlight"</string>
+<string name="power_menu_airplane_title">"Tryb samolotowy"</string>
+<string name="power_menu_users_title">"Zmiana użytkownika"</string>
+<string name="power_menu_search_title">"Szukaj"</string>
+<string name="power_menu_voice_title">"Wyszukiwanie głosowe"</string>
+<string name="power_menu_settings_title">"Skrót do ustawień"</string>
+<string name="power_menu_lockdown_title">"Blokada urządzenia"</string>
+<string name="power_menu_bug_report_title">"Raportowanie błędów"</string>
+<string name="power_menu_sound_title">"Panelu dźwięku"</string>
+<string name="power_menu_bug_report_disabled">"Zgłaszanie błędów jest wyłączone w opcjach programistycznych"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"Pokaż menu zasilania na zabezpieczonym ekranie blokady"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"Przyciski głośności"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"Wybudzanie przyciskiem głośności"</string>
+<string name="button_wake_summary">"Zastępuje sterowanie muzyką"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"Kontrola muzyki"</string>
+<string name="volbtn_music_controls_summary">"Gdy ekran jest wyłączony, długie naciśnięcie klawiszy głośności będzie przełączać pomiędzy utworami muzycznymi"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"Sterowanie kursorem klawiatury"</string>
+<string name="volbtn_cursor_control_off">"Wyłączony"</string>
+<string name="volbtn_cursor_control_on">"Głośność góra/dół porusza kursorem w lewo/prawo"</string>
+<string name="volbtn_cursor_control_on_reverse">"Przyciski głośności w górę/dół poruszają kursorem w prawo/lewo"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"Przyciski głośności regulują głośność multimediów"</string>
+<string name="volume_keys_control_media_stream_summary">"Wymuś kontrolę strumienia mediów klawiszami głośności"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"Zamiana przycisków głośności"</string>
+<string name="swap_volume_buttons_summary">"Dostosuj działanie przycisków głośności do aktualnej pozycji urządzenia"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"Ekran blokady"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"Okładki"</string>
+<string name="media_art_summary">"Włącz okładkę na ekranie blokady"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"Latarka na ekranie blokady"</string>
+<string name="keyguard_torch_summary">"Przytrzymanie przycisku power podczas wygaszonego ekranu włącza latarkę"</string>
+</resources>

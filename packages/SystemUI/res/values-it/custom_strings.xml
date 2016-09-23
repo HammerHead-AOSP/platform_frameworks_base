@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"Menu di spegnimento"</string>
+<string name="power_category">"Opzioni menu di spegnimento"</string>
+<string name="actions_category">"Voci nel menu di spegnimento"</string>
+<string name="power_menu_reboot_title">"Riavvio"</string>
+<string name="power_menu_screenshot_title">"Screenshot"</string>
+<string name="power_menu_torch_title">"Torcia"</string>
+<string name="power_menu_airplane_title">"Modalità aereo"</string>
+<string name="power_menu_users_title">"Cambia utente"</string>
+<string name="power_menu_search_title">"Cerca"</string>
+<string name="power_menu_voice_title">"Ricerca vocale"</string>
+<string name="power_menu_settings_title">"Scorciatoia impostazioni"</string>
+<string name="power_menu_lockdown_title">"Blocca dispositivo"</string>
+<string name="power_menu_bug_report_title">"Segnala bug"</string>
+<string name="power_menu_sound_title">"Pannello suoni"</string>
+<string name="power_menu_bug_report_disabled">"La segnalazione dei bug è disattivata nelle impostazioni sviluppatore"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"Visualizza menu di spegnimento sulla schermata di blocco sicuro"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"Bilanciere del volume"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"Risveglia con tasti volume"</string>
+<string name="button_wake_summary">"Potresti non riuscire a riattivare il dispositivo se il controllo della musica è attivo e la musica è in riproduzione"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"Controllo musica"</string>
+<string name="volbtn_music_controls_summary">"Quando lo schermo è spento, premere a lungo i tasti volume farà cambiare canzone"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"Controllo cursore con tasti volume"</string>
+<string name="volbtn_cursor_control_off">"Disabilitato"</string>
+<string name="volbtn_cursor_control_on">"I tasti su/giù muovono il cursore a sinistra/destra"</string>
+<string name="volbtn_cursor_control_on_reverse">"I tasti su/giù muovono il cursore a destra/sinistra"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"I tasti volume regolano la suoneria"</string>
+<string name="volume_keys_control_media_stream_summary">"Forza i tasti del volume a controllare il la riproduzione multimediale"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"Scambia tasti volume"</string>
+<string name="swap_volume_buttons_summary">"Cambia l'azione dei tasti volume in base alla rotazione"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"Schermata di blocco"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"Copertina media"</string>
+<string name="media_art_summary">"Abilita copertina sul lockscreen"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"Torcia schermata di blocco"</string>
+<string name="keyguard_torch_summary">"La pressione prolungata del pulsante di accensione con lo schermo spento accende la torcia"</string>
+</resources>

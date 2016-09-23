@@ -31,4 +31,19 @@
   <string name="reboot_confirm" product="default">Je telefoon wordt herstart.</string>
   <!-- Reboot Progress Dialog. This is shown if the user chooses to reboot the phone. -->
   <string name="reboot_progress">Herstarten\u2026</string>
+
+  <!-- Global Actions -->
+  <string name="global_action_screenshot">Schermafbeelding</string>
+  <string name="global_action_screen_record">Schermopname</string>
+  <string name="global_action_search">Zoeken</string>
+  <string name="global_action_voicesearch">Spraakgestuurd zoeken</string>
+  <string name="global_action_current_user">Huidige</string>
+  <string name="global_action_torch">Zaklamp</string>
+
+  <!-- ADB over network notification -->
+  <string name="adb_net_active_notification_title">ADB via netwerk ingeschakeld</string>
+  <!-- ADB over USB and network notification -->
+  <string name="adb_both_active_notification_title">ADB via USB &amp; netwerk ingeschakeld</string>
+  <!-- ADB notification message-->
+  <string name="adb_active_generic_notification_message">Tik om foutopsporing uit te schakelen.</string>
 </resources>
