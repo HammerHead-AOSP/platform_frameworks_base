@@ -1,71 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2016 The Pure Nexus Project
+<resources>
 
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"Меню выключения"</string>
+<string name="power_category">"Варианты выключения"</string>
+<string name="actions_category">"Пункты меню выключения"</string>
 
-          http://www.apache.org/licenses/LICENSE-2.0
+<!-- Power menu customization -->
+<string name="power_menu_reboot_title">"Перезагрузка"</string>
+<string name="power_menu_screenshot_title">"Снимок экрана"</string>
+<string name="power_menu_torch_title">"Фонарик"</string>
+<string name="power_menu_airplane_title">"Режим полёта"</string>
+<string name="power_menu_users_title">"Переключение пользователей"</string>
+<string name="power_menu_search_title">"Поиск"</string>
+<string name="power_menu_voice_title">"Голосовой поиск"</string>
+<string name="power_menu_settings_title">"Ярлык настроек"</string>
+<string name="power_menu_lockdown_title">"Блокировка устройства"</string>
+<string name="power_menu_bug_report_title">"Отчёт об ошибке"</string>
+<string name="power_menu_sound_title">"Звуковая панель"</string>
+<string name="power_menu_bug_report_disabled">"Сообщения об ошибках выключены в настройках разработчика"</string>
 
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar tuner</string>
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"Показывать меню выключения на экране блокировки"</string>
 
-    <!-- Power Menu fragment -->
-    <string name="powermenu_frag_title">Меню выключения</string>
-    <string name="power_category">Варианты выключения</string>
-    <string name="actions_category">Пункты меню выключения</string>
-    <!-- Power menu customization -->
-    <string name="power_menu_reboot_title">Перезагрузка</string>
-    <string name="power_menu_screenshot_title">Снимок экрана</string>
-    <string name="power_menu_torch_title">Фонарик</string>
-    <string name="power_menu_airplane_title">Режим полёта</string>
-    <string name="power_menu_users_title">Переключение пользователей</string>
-    <string name="power_menu_search_title">Поиск</string>
-    <string name="power_menu_voice_title">Голосовой поиск</string>
-    <string name="power_menu_settings_title">Ярлык настроек</string>
-    <string name="power_menu_lockdown_title">Блокировка устройства</string>
-    <string name="power_menu_bug_report_title">Отчёт об ошибке</string>
-    <string name="power_menu_sound_title">Звуковая панель</string>
-    <string name="power_menu_bug_report_disabled">Сообщения об ошибках выключены в настройках разработчика</string>
-    <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Показывать меню выключения на экране блокировки</string>
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"Кнопки громкости"</string>
 
-    <!-- volumerocker fragment -->
-    <string name="volrock_frag_title">Кнопки громкости</string>
-    <!-- Volume button wake -->
-    <string name="volbtn_wake_device_title">Пробуждение кнопками громкости</string>
-    <string name="button_wake_summary">Может не пробудить устройство, если управление музыкой активно и играет музыка</string>
-    <!-- Volume button track change -->
-    <string name="volbtn_music_controls_title">Управление музыкой кнопками громкости</string>
-    <string name="volbtn_music_controls_summary">Когда экран выключен, долгое нажатие клавиш громкости будет переключать треки</string>
-    <!-- Volume key cursor control -->
-    <string name="volbtn_cursor_control_title">Перемещение курсора кнопками громкости</string>
-    <string name="volbtn_cursor_control_off">Отключено</string>
-    <string name="volbtn_cursor_control_on">Громкость вверх/вниз перемещает курсор влево/вправо</string>
-    <string name="volbtn_cursor_control_on_reverse">Громкость вверх/вниз перемещение курсора вправо/влево</string>
-    <!-- Volume key controls ring stream -->
-    <string name="volume_keys_control_media_stream_title">Регулирование громкости мультимедиа кнопками громкости</string>
-    <string name="volume_keys_control_media_stream_summary">Управлять мультимедиа кнопками громкости</string>
-    <!-- Volume key orientation swap -->
-    <string name="swap_volume_buttons_title">Кнопки громкости при автоповороте</string>
-    <string name="swap_volume_buttons_summary">Менять назначение кнопок регулировки громкости согласно ориентации экрана</string>
- 
-    <!-- Lockscreen Fragment -->
-    <string name="lockscreen_frag_title">Экран блокировки</string>
-    <!-- Lockscreen torch -->
-    <string name="keyguard_torch_title">Фонарик на экране блокировки</string>
-    <string name="keyguard_torch_summary">Долгое нажатие кнопки блокировки с выключенным экраном включает фонарик</string>
-    <!-- Lockscreen cover art -->
-    <string name="media_art_title">Обложка альбома</string>
-    <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"Пробуждение кнопками громкости"</string>
+<string name="button_wake_summary">"Может не пробудить устройство, если управление музыкой активно и играет музыка"</string>
 
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"Управление музыкой кнопками громкости"</string>
+<string name="volbtn_music_controls_summary">"Когда экран выключен, долгое нажатие клавиш громкости будет переключать треки"</string>
 
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"Перемещение курсора кнопками громкости"</string>
+<string name="volbtn_cursor_control_off">"Отключено"</string>
+<string name="volbtn_cursor_control_on">"Громкость вверх/вниз перемещает курсор влево/вправо"</string>
+<string name="volbtn_cursor_control_on_reverse">"Громкость вверх/вниз перемещение курсора вправо/влево"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"Регулирование громкости мультимедиа кнопками громкости"</string>
+<string name="volume_keys_control_media_stream_summary">"Управлять мультимедиа кнопками громкости"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"Кнопки громкости при автоповороте"</string>
+<string name="swap_volume_buttons_summary">"Менять назначение кнопок регулировки громкости согласно ориентации экрана"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"Экран блокировки"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"Обложка альбома"</string>
+<string name="media_art_summary">"Показывать обложку альбома на экране блокировки"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"Фонарик на экране блокировки"</string>
+<string name="keyguard_torch_summary">"Долгое нажатие кнопки блокировки с выключенным экраном включает фонарик"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"Анимация для маленьких плиток"</string>
+<string name="sysui_qs_move_whole_rows_title">"Анимация через ряд"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"Число маленьких плиток"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5 (по умолчанию)"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"Дважды нажмите в любом месте экрана - чтобы перевести устройство в сон"</string>
+<string name="double_tap_sleep_anywhere_summary">"Дважды нажмите в любом месте на экране блокировки, чтобы выключить устройство"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"Строка состояния"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"Двойное нажатие для выключения экрана"</string>
+<string name="double_tap_to_sleep_summary">"Двойное нажатие на строке состояния выключает экран"</string>
 </resources>

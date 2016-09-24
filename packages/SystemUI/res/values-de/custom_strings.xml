@@ -5,6 +5,8 @@
 <string name="powermenu_frag_title">"Ein/Aus-Menü"</string>
 <string name="power_category">"Ein/Aus-Menü-Optionen"</string>
 <string name="actions_category">"Ein/Aus-Menü-Einträge"</string>
+
+<!-- Power menu customization -->
 <string name="power_menu_reboot_title">"Neustart"</string>
 <string name="power_menu_screenshot_title">"Bildschirmfoto"</string>
 <string name="power_menu_torch_title">"Taschenlampe"</string>
@@ -56,4 +58,27 @@
 <!-- Lockscreen torch -->
 <string name="keyguard_torch_title">"Sperrbildschirm-Taschenlampe"</string>
 <string name="keyguard_torch_summary">"Langer Druck auf die Ein/Aus-Taste schaltet bei ausgeschaltetem Bildschirm die Taschenlampe ein"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"Fancy Animation"</string>
+<string name="sysui_qs_move_whole_rows_title">"Verschieben Sie ganze Reihen"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"Schnell Kacheln zählen"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5 (Standard)"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"Tippe zweimal irgendwo, um das Gerät in den Ruhemodus zu versetzen"</string>
+<string name="double_tap_sleep_anywhere_summary">"Tippe zweimal irgendwo auf dem Sperrbildschirm, um das Gerät in den Ruhemodus zu versetzen"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"Statusleiste"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"Doppelt tippen zum Sperren"</string>
+<string name="double_tap_to_sleep_summary">"Tippe die Statusleiste zweimal an, um das Gerät in den Ruhemodus zu versetzen"</string>
 </resources>

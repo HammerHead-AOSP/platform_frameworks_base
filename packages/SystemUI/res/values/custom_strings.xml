@@ -15,6 +15,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="navbar_tuner_title">Navbar Tuner</string>
     <!-- powermenu fragment -->
     <string name="powermenu_frag_title">Power Menu</string>
     <string name="power_category">Power menu options</string>
@@ -63,6 +64,26 @@
     <!-- Lockscreen torch -->
     <string name="keyguard_torch_title">Lockscreen torch</string>
     <string name="keyguard_torch_summary">Longpress power button with screen off turns on torch</string>
+    <!-- Lockscreen tap-to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+  
+    <!-- statusbar fragment -->
+    <string name="statusbar_frag_title">Statusbar</string>
+    <!-- double tap to sleep - statusbar -->
+    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
 
+    <!-- QS Tuner -->
+    <string name="sysui_qs_fancy_anim_title">Fancy animation</string>
+    <string name="sysui_qs_move_whole_rows_title">Move whole rows</string>
+
+    <!--- Small tiles count -->
+    <string name="sysui_qqs_count_title">Small quick tiles count</string>
+    <string name="sysui_qqs_count_3">3</string>
+    <string name="sysui_qqs_count_4">4</string>
+    <string name="sysui_qqs_count_5_default">5 (default)</string>
+    <string name="sysui_qqs_count_6">6</string>
+    <string name="sysui_qqs_count_7">7</string>
 
 </resources>

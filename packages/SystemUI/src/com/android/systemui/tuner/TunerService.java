@@ -102,9 +102,8 @@ public class TunerService extends SystemUI {
                 iconBlacklist.add("rotate");
                 iconBlacklist.add("headset");
 
-                Settings.Secure.putStringForUser(mContentResolver,
-                        StatusBarIconController.ICON_BLACKLIST,
-                        TextUtils.join(",", iconBlacklist), mCurrentUser);
+                setValue(StatusBarIconController.ICON_BLACKLIST,
+                        TextUtils.join(",", iconBlacklist));
             }
         }
         setValue(TUNER_VERSION, newVersion);
@@ -143,8 +142,7 @@ public class TunerService extends SystemUI {
             mContentResolver.registerContentObserver(uri, true, mObserver, mCurrentUser);
         }
         // Send the first state.
-        String value = Settings.Secure.getStringForUser(mContentResolver, key, mCurrentUser);
-        tunable.onTuningChanged(key, value);
+        tunable.onTuningChanged(key, getValue(key));
     }
 
     public void removeTunable(Tunable tunable) {
@@ -169,7 +167,7 @@ public class TunerService extends SystemUI {
         if (tunables == null) {
             return;
         }
-        String value = Settings.Secure.getStringForUser(mContentResolver, key, mCurrentUser);
+        String value = getValue(key);
         for (Tunable tunable : tunables) {
             tunable.onTuningChanged(key, value);
         }

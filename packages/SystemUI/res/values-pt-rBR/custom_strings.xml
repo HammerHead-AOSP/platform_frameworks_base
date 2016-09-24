@@ -2,58 +2,83 @@
 <resources>
 
 <!-- powermenu fragment -->
-<string name="powermenu_frag_title">Menu de energia</string>
-<string name="power_category">Opções do menu de energia</string>
-<string name="actions_category">Itens do menu de energia</string>
-<string name="power_menu_reboot_title">Menu de Reinicialização</string>
-<string name="power_menu_screenshot_title">Captura de tela</string>
-<string name="power_menu_torch_title">Lanterna</string>
-<string name="power_menu_airplane_title">Modo avião</string>
-<string name="power_menu_users_title">Alternador de usuário</string>
-<string name="power_menu_search_title">Pesquisar</string>
-<string name="power_menu_voice_title">Pesquisa por voz</string>
-<string name="power_menu_settings_title">Configurações de atalho</string>
-<string name="power_menu_lockdown_title">Bloqueio do dispositivo</string>
-<string name="power_menu_bug_report_title">Relatório de erros</string>
-<string name="power_menu_sound_title">Painel de som</string>
-<string name="power_menu_bug_report_disabled">Relatório de erros é desabilitado nas configurações de desenvolvedor</string>
+<string name="powermenu_frag_title">"Menu de energia"</string>
+<string name="power_category">"Opções do menu de energia"</string>
+<string name="actions_category">"Itens do menu de energia"</string>
+
+<!-- Power menu customization -->
+<string name="power_menu_reboot_title">"Menu de Reinicialização"</string>
+<string name="power_menu_screenshot_title">"Captura de tela"</string>
+<string name="power_menu_torch_title">"Lanterna"</string>
+<string name="power_menu_airplane_title">"Modo avião"</string>
+<string name="power_menu_users_title">"Alternador de usuário"</string>
+<string name="power_menu_search_title">"Pesquisar"</string>
+<string name="power_menu_voice_title">"Pesquisa por voz"</string>
+<string name="power_menu_settings_title">"Configurações de atalho"</string>
+<string name="power_menu_lockdown_title">"Bloqueio do dispositivo"</string>
+<string name="power_menu_bug_report_title">"Relatório de erros"</string>
+<string name="power_menu_sound_title">"Painel de som"</string>
+<string name="power_menu_bug_report_disabled">"Relatório de erros é desabilitado nas configurações de desenvolvedor"</string>
 
 <!-- Power menu on secure lockscreen -->
-<string name="lockscreen_enable_power_menu_title">Exibir o menu de energia com a tela bloqueada</string>
+<string name="lockscreen_enable_power_menu_title">"Exibir o menu de energia com a tela bloqueada"</string>
 
 <!-- volumerocker fragment -->
-<string name="volrock_frag_title">Botões de volume</string>
+<string name="volrock_frag_title">"Botões de volume"</string>
 
 <!-- Volume button wake -->
-<string name="volbtn_wake_device_title">Despertar com os botões de volume</string>
-<string name="button_wake_summary">Substitui o controle de música</string>
+<string name="volbtn_wake_device_title">"Despertar com os botões de volume"</string>
+<string name="button_wake_summary">"Substitui o controle de música"</string>
 
 <!-- Volume music control -->
-<string name="volbtn_music_controls_title">Controle de música</string>
-<string name="volbtn_music_controls_summary">Quando a tela estiver desligada, segurar os botões de volume irá procurar faixas de música</string>
+<string name="volbtn_music_controls_title">"Controle de música"</string>
+<string name="volbtn_music_controls_summary">"Quando a tela estiver desligada, segurar os botões de volume irá procurar faixas de música"</string>
 
 <!-- Volume key cursor control -->
-<string name="volbtn_cursor_control_title">Controle do cursor no teclado</string>
-<string name="volbtn_cursor_control_off">Desabilitado</string>
-<string name="volbtn_cursor_control_on">Botões de volume cima/baixo movem o cursor para esquerda/direita</string>
-<string name="volbtn_cursor_control_on_reverse">Botões de volume cima/baixo movem o cursor para direita/esquerda</string>
+<string name="volbtn_cursor_control_title">"Controle do cursor no teclado"</string>
+<string name="volbtn_cursor_control_off">"Desabilitado"</string>
+<string name="volbtn_cursor_control_on">"Botões de volume cima/baixo movem o cursor para esquerda/direita"</string>
+<string name="volbtn_cursor_control_on_reverse">"Botões de volume cima/baixo movem o cursor para direita/esquerda"</string>
 
 <!-- Volume key controls media stream -->
-<string name="volume_keys_control_media_stream_title">Teclas de volume controlam de volume de mídia</string>
-<string name="volume_keys_control_media_stream_summary">Forçar as teclas de volume para controlar o fluxo de mídia</string>
+<string name="volume_keys_control_media_stream_title">"Teclas de volume controlam de volume de mídia"</string>
+<string name="volume_keys_control_media_stream_summary">"Forçar as teclas de volume para controlar o fluxo de mídia"</string>
 
 <!-- Volume key orientation swap -->
-<string name="swap_volume_buttons_title">Botões de volume de troca</string>
-<string name="swap_volume_buttons_summary">Ajusta as ações dos botões de volume baseado na rotação em que o dispositivo se encontra</string>
+<string name="swap_volume_buttons_title">"Botões de volume de troca"</string>
+<string name="swap_volume_buttons_summary">"Ajusta as ações dos botões de volume baseado na rotação em que o dispositivo se encontra"</string>
 
 <!-- Lockscreen Fragment -->
-<string name="lockscreen_frag_title">Tela de bloqueio</string>
+<string name="lockscreen_frag_title">"Tela de bloqueio"</string>
 
 <!-- Lockscreen album art -->
-<string name="media_art_title">Arte do álbum</string>
-<string name="media_art_summary">Habilitar as artes do álbums na tela de bloqueio</string>
+<string name="media_art_title">"Arte do álbum"</string>
+<string name="media_art_summary">"Habilitar as artes do álbums na tela de bloqueio"</string>
 
 <!-- Lockscreen torch -->
-<string name="keyguard_torch_title">Lanterna na tela de bloqueio</string>
-<string name="keyguard_torch_summary">Manter o botão de energia pressionado com a tela desligada para ligar a lanterna</string>
+<string name="keyguard_torch_title">"Lanterna na tela de bloqueio"</string>
+<string name="keyguard_torch_summary">"Manter o botão de energia pressionado com a tela desligada para ligar a lanterna"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"Animação de fantasia"</string>
+<string name="sysui_qs_move_whole_rows_title">"Mover linhas inteiras"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"Telhas contagem rápida"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5 (padrão)"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"Toque duplo em qualquer lugar para apagar a tela"</string>
+<string name="double_tap_sleep_anywhere_summary">"Toque duplo em qualquer lugar da tela de bloqueio para apagar a tela"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"Barra de status"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"Toque duas vezes para apagar a tela"</string>
+<string name="double_tap_to_sleep_summary">"Toque duas vezes na barra de status para apagar a tela"</string>
 </resources>

@@ -46,18 +46,18 @@ import java.util.List;
 
 public class PowerMenuFragment extends PreferenceFragment {
 
+    public PowerMenuFragment(){}
+
     private static final String ACTION_CATEGORY = "action_category";
     private static final String POWER_CATEGORY = "power_category";
     // power items
     private SwitchPreference mRebootPref;
     private SwitchPreference mScreenshotPref;
-    private SwitchPreference mScreenRecordPref;
     private SwitchPreference mTorchPref;
     private SwitchPreference mAirplanePref;
     private SwitchPreference mUsersPref;
     private SwitchPreference mSettingsPref;
     private SwitchPreference mLockdownPref;
-    private SwitchPreference mVoicePref;
     private SwitchPreference mBugReportPref;
     private SwitchPreference mSilentPref;
 
@@ -74,6 +74,7 @@ public class PowerMenuFragment extends PreferenceFragment {
 
         addPreferencesFromResource(R.xml.powermenu_fragment);
         mContext = getActivity().getApplicationContext();
+
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
 
@@ -121,8 +122,6 @@ public class PowerMenuFragment extends PreferenceFragment {
 
         getUserConfig();
     }
-
-    public PowerMenuFragment(){}
 
     @Override
     public void onStart() {
@@ -262,8 +261,8 @@ public class PowerMenuFragment extends PreferenceFragment {
     }
 
     private void updatePreferences() {
-        boolean bugreport = Settings.Secure.getInt(getActivity().getContentResolver(),
-                Settings.Secure.BUGREPORT_IN_POWER_MENU, 0) != 0;
+        boolean bugreport = Settings.Global.getInt(mContext.getContentResolver(),
+                Settings.Global.BUGREPORT_IN_POWER_MENU, 0) != 0;
 
         if (mBugReportPref != null) {
             mBugReportPref.setEnabled(bugreport);

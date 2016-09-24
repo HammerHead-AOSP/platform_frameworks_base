@@ -5,6 +5,8 @@
 <string name="powermenu_frag_title">"Menu zasilania"</string>
 <string name="power_category">"Opcje menu zasilania"</string>
 <string name="actions_category">"Elementy menu zasilania"</string>
+
+<!-- Power menu customization -->
 <string name="power_menu_reboot_title">"Menu restartu"</string>
 <string name="power_menu_screenshot_title">"Zrzut ekranu"</string>
 <string name="power_menu_torch_title">"Flashlight"</string>
@@ -56,4 +58,27 @@
 <!-- Lockscreen torch -->
 <string name="keyguard_torch_title">"Latarka na ekranie blokady"</string>
 <string name="keyguard_torch_summary">"Przytrzymanie przycisku power podczas wygaszonego ekranu włącza latarkę"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"Fajna animacja"</string>
+<string name="sysui_qs_move_whole_rows_title">"Przenieś całe rzędy"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"Szybkie liczenie płytek"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5 (domyślnie)"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"Dotknij dwukrotnie gdziekolwiek, aby uśpić"</string>
+<string name="double_tap_sleep_anywhere_summary">"Dotknij dwukrotnie gdziekolwiek na ekranie blokady, aby uśpić urządzenie"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"Pasek stanu"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"Dwukrotnie dotknij, aby uśpić"</string>
+<string name="double_tap_to_sleep_summary">"Dwukrotnie dotknij na pasku stanu, aby uśpić urządzenie"</string>
 </resources>

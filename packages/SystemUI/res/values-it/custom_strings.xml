@@ -5,6 +5,8 @@
 <string name="powermenu_frag_title">"Menu di spegnimento"</string>
 <string name="power_category">"Opzioni menu di spegnimento"</string>
 <string name="actions_category">"Voci nel menu di spegnimento"</string>
+
+<!-- Power menu customization -->
 <string name="power_menu_reboot_title">"Riavvio"</string>
 <string name="power_menu_screenshot_title">"Screenshot"</string>
 <string name="power_menu_torch_title">"Torcia"</string>
@@ -56,4 +58,27 @@
 <!-- Lockscreen torch -->
 <string name="keyguard_torch_title">"Torcia schermata di blocco"</string>
 <string name="keyguard_torch_summary">"La pressione prolungata del pulsante di accensione con lo schermo spento accende la torcia"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"Animazione Fancy"</string>
+<string name="sysui_qs_move_whole_rows_title">"Spostare intere righe"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"Contano piastrelle rapidi"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5 (default)"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"Doppio tocco per spegnere"</string>
+<string name="double_tap_sleep_anywhere_summary">"Clicca due volte ovunque sullo schermo per spegnere lo schermo"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"Barra di stato"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"Doppio-tocco per spegnere lo schermo"</string>
+<string name="double_tap_to_sleep_summary">"Doppio tap sulla barra di stato per spegnere lo schermo"</string>
 </resources>

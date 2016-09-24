@@ -52,17 +52,33 @@
         <item>3</item><item>3</item>
     </array>
 
+    <!--- Small tiles count -->
+    <string-array name="sysui_qqs_count_entries">
+        <item>@string/sysui_qqs_count_3</item>
+        <item>@string/sysui_qqs_count_4</item>
+        <item>@string/sysui_qqs_count_5_default</item>
+        <item>@string/sysui_qqs_count_6</item>
+        <item>@string/sysui_qqs_count_7</item>
+    </string-array>
+
+    <string-array name="sysui_qqs_count_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
     <!-- PowerMenu entries -->
     <string-array name="power_menu_actions_array" translatable="false">
         <item>power</item>
         <item>reboot</item>
         <item>screenshot</item>
+        <item>torch</item>
         <item>airplane</item>
         <item>users</item>
         <item>settings</item>
         <item>lockdown</item>
-        <item>assist</item>
-        <item>voiceassist</item>
         <item>silent</item>
     </string-array>
 

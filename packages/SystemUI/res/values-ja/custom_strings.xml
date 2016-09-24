@@ -5,6 +5,8 @@
 <string name="powermenu_frag_title">"電源メニュー"</string>
 <string name="power_category">"電源メニューオプション"</string>
 <string name="actions_category">"電源メニュー項目"</string>
+
+<!-- Power menu customization -->
 <string name="power_menu_reboot_title">"再起動メニュー"</string>
 <string name="power_menu_screenshot_title">"スクリーンショット"</string>
 <string name="power_menu_torch_title">"フラッシュライト"</string>
@@ -56,4 +58,27 @@
 <!-- Lockscreen torch -->
 <string name="keyguard_torch_title">"ロック画面 トーチ"</string>
 <string name="keyguard_torch_summary">"電源ボタンを長押しで画面オフの後にトーチを起動する"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"ファンシーアニメーション"</string>
+<string name="sysui_qs_move_whole_rows_title">"行全体を移動"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"クイックタイル数"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5（デフォルト）"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"どこでもタブルタップすることでスリープ"</string>
+<string name="double_tap_sleep_anywhere_summary">"ロックスクリーンのどこでもダブルタップすることでデバイスをスリープする"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"ステータスバー"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"ダブルタップでスリープ"</string>
+<string name="double_tap_to_sleep_summary">"ステータスバー上をダブルタップしてスリープ状態にします。"</string>
 </resources>

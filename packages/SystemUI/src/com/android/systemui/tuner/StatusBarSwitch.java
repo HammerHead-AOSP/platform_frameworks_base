@@ -61,18 +61,21 @@ public class StatusBarSwitch extends SwitchPreference implements Tunable {
 
     @Override
     protected boolean persistBoolean(boolean value) {
-        if (!value) {
-            // If not enabled add to blacklist.
-            if (!mBlacklist.contains(getKey())) {
-                MetricsLogger.action(getContext(), MetricsEvent.TUNER_STATUS_BAR_DISABLE,
-                        getKey());
-                mBlacklist.add(getKey());
-                setList(mBlacklist);
-            }
-        } else {
-            if (mBlacklist.remove(getKey())) {
-                MetricsLogger.action(getContext(), MetricsEvent.TUNER_STATUS_BAR_ENABLE, getKey());
-                setList(mBlacklist);
+        // Idk why it turns to null after opening powermenu fragment
+        if (mBlacklist != null) {
+            if (!value) {
+                // If not enabled add to blacklist.
+                if (!mBlacklist.contains(getKey())) {
+                    MetricsLogger.action(getContext(), MetricsEvent.TUNER_STATUS_BAR_DISABLE,
+                            getKey());
+                    mBlacklist.add(getKey());
+                    setList(mBlacklist);
+                }
+            } else {
+                if (mBlacklist.remove(getKey())) {
+                    MetricsLogger.action(getContext(), MetricsEvent.TUNER_STATUS_BAR_ENABLE, getKey());
+                    setList(mBlacklist);
+                }
             }
         }
         return true;

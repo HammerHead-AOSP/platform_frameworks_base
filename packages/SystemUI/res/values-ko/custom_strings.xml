@@ -5,6 +5,8 @@
 <string name="powermenu_frag_title">"전원 메뉴"</string>
 <string name="power_category">"전원 메뉴 설정"</string>
 <string name="actions_category">"전원 메뉴 항목"</string>
+
+<!-- Power menu customization -->
 <string name="power_menu_reboot_title">"재시작 메뉴"</string>
 <string name="power_menu_screenshot_title">"스크린샷"</string>
 <string name="power_menu_torch_title">"손전등"</string>
@@ -56,4 +58,27 @@
 <!-- Lockscreen torch -->
 <string name="keyguard_torch_title">"잠금 화면 손전등"</string>
 <string name="keyguard_torch_summary">"화면이 꺼져 있을 때, 전원 버튼을 길고 누르고 있으면 손전등이 켜집니다"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"멋진 애니메이션"</string>
+<string name="sysui_qs_move_whole_rows_title">"전체 행을 이동"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"빠른 타일 계산"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5 (기본값)"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"(아무 곳이나) 더블 탭하여 절전"</string>
+<string name="double_tap_sleep_anywhere_summary">"잠금 화면에서 아무 곳이나 두 번 두들기면 절전모드로 들어갑니다"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"상태 바"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"두 번 터치로 절전모드"</string>
+<string name="double_tap_to_sleep_summary">"상태 바를 두 번 연속으로 터치하면 절전모드에 들어갑니다"</string>
 </resources>

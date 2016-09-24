@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- powermenu fragment -->
+<string name="powermenu_frag_title">"PowerMenu"</string>
+<string name="power_category">"Power menu options"</string>
+<string name="actions_category">"Power menu items"</string>
+
+<!-- Power menu customization -->
+<string name="power_menu_reboot_title">"Reboot"</string>
+<string name="power_menu_screenshot_title">"Screenshot"</string>
+<string name="power_menu_torch_title">"Flashlight"</string>
+<string name="power_menu_airplane_title">"Airplane mode"</string>
+<string name="power_menu_users_title">"User switcher"</string>
+<string name="power_menu_search_title">"Search"</string>
+<string name="power_menu_voice_title">"Voice search"</string>
+<string name="power_menu_settings_title">"Settings shortcut"</string>
+<string name="power_menu_lockdown_title">"Device lockdown"</string>
+<string name="power_menu_bug_report_title">"Bug report"</string>
+<string name="power_menu_sound_title">"Sound panel"</string>
+<string name="power_menu_bug_report_disabled">"Bug reporting is disabled in development settings"</string>
+
+<!-- Power menu on secure lockscreen -->
+<string name="lockscreen_enable_power_menu_title">"Show power menu on secure lock screen"</string>
+
+<!-- volumerocker fragment -->
+<string name="volrock_frag_title">"Volym knappen"</string>
+
+<!-- Volume button wake -->
+<string name="volbtn_wake_device_title">"Volym-knappen väcker"</string>
+<string name="button_wake_summary">"May not wake device if music control is active and music is playing"</string>
+
+<!-- Volume music control -->
+<string name="volbtn_music_controls_title">"Musikkontroll"</string>
+<string name="volbtn_music_controls_summary">"Långtryckning av volymknapparna söker efter musikspår när skärmen är avstängd"</string>
+
+<!-- Volume key cursor control -->
+<string name="volbtn_cursor_control_title">"Volymknapp kontrollerar markör"</string>
+<string name="volbtn_cursor_control_off">"Inaktiverat"</string>
+<string name="volbtn_cursor_control_on">"Volym upp/ned flyttar markören vänster/höger"</string>
+<string name="volbtn_cursor_control_on_reverse">"Volym upp/ned flyttar markören höger/vänster"</string>
+
+<!-- Volume key controls media stream -->
+<string name="volume_keys_control_media_stream_title">"Volymknapparna kontrollerar volymen för media"</string>
+<string name="volume_keys_control_media_stream_summary">"Tvinga volymknappar att styra mediaströmning"</string>
+
+<!-- Volume key orientation swap -->
+<string name="swap_volume_buttons_title">"Byt sida på volymknapparna"</string>
+<string name="swap_volume_buttons_summary">"Justera volym knapparnas åtgärder baserat på nuvarande rotation"</string>
+
+<!-- Lockscreen Fragment -->
+<string name="lockscreen_frag_title">"Låsskärm"</string>
+
+<!-- Lockscreen album art -->
+<string name="media_art_title">"Albumomslag"</string>
+<string name="media_art_summary">"Aktivera albumomslag på låsskärmen"</string>
+
+<!-- Lockscreen torch -->
+<string name="keyguard_torch_title">"Låsskärmsficklampa"</string>
+<string name="keyguard_torch_summary">"Tryck och håll strömbrytaren med skärmen avstängd för att tända ficklampan"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"Fancy animation"</string>
+<string name="sysui_qs_move_whole_rows_title">"Flytta hela rader"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"Snabb plattor räkna"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5 (standard)"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"Dubbeltryck för att sova någonstans"</string>
+<string name="double_tap_sleep_anywhere_summary">"Dubbeltryck var som helst på låsskärmen för att sätta enheten i viloläge"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"Statusbar"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"Dubbeltryck för att sova"</string>
+<string name="double_tap_to_sleep_summary">"Dubbeltryck på statusfältet för att sätta enheten i viloläge"</string>
+</resources>

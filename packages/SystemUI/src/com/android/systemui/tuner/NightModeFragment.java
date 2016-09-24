@@ -98,6 +98,15 @@ public class NightModeFragment extends PreferenceFragment implements Tunable,
                 mSwitch.setChecked(newState);
             }
         });
+        mSwitch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                boolean newState = !mNightModeController.isEnabled();
+                MetricsLogger.action(getContext(), MetricsEvent.ACTION_TUNER_NIGHT_MODE, newState);
+                mNightModeController.setNightMode(newState);
+                mSwitch.setChecked(newState);
+            }
+        });
     }
 
     @Override

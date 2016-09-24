@@ -5,6 +5,8 @@
 <string name="powermenu_frag_title">"電源選單"</string>
 <string name="power_category">"電源選單選項"</string>
 <string name="actions_category">"電源選單項目"</string>
+
+<!-- Power menu customization -->
 <string name="power_menu_reboot_title">"重新啟動"</string>
 <string name="power_menu_screenshot_title">"擷取螢幕畫面"</string>
 <string name="power_menu_torch_title">"手電筒"</string>
@@ -56,4 +58,27 @@
 <!-- Lockscreen torch -->
 <string name="keyguard_torch_title">"鎖定畫面手電筒"</string>
 <string name="keyguard_torch_summary">"螢幕關閉時長按電源鍵以開起手電筒"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"花式動畫"</string>
+<string name="sysui_qs_move_whole_rows_title">"移動全行"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"小迅捷地磚數"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5（默認）"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"任意位置雙擊睡眠"</string>
+<string name="double_tap_sleep_anywhere_summary">"雙擊鎖定畫面任意位置以使裝置睡眠"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"狀態列"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"雙擊休眠"</string>
+<string name="double_tap_to_sleep_summary">"雙擊狀態列以使裝置睡眠"</string>
 </resources>

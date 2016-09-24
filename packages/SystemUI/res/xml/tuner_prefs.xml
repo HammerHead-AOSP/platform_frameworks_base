@@ -80,16 +80,16 @@
             android:key="airplane"
             android:title="@string/status_bar_airplane" />
 
+        <com.android.systemui.tuner.StatusBarSwitch
+            android:key="alarm_clock"
+            android:title="@string/status_bar_alarm" />
+
         <!-- other weird signal stuff -->
 
         <com.android.systemui.tuner.BatteryPreference
             android:title="@string/battery"
             android:summary="%s"
             android:entries="@array/battery_options" />
-
-        <com.android.systemui.tuner.StatusBarSwitch
-            android:key="alarm_clock"
-            android:title="@string/status_bar_alarm" />
 
         <!-- secure -->
 
@@ -105,7 +105,7 @@
         android:key="color_transform"
         android:title="@string/color_and_appearance"
         android:fragment="com.android.systemui.tuner.ColorAndAppearanceFragment" />
-    
+
 
     <PreferenceScreen
         android:key="volume_and_do_not_disturb"
@@ -154,8 +154,8 @@
     
     <!-- Other -->
     <Preference
-            android:key="other"
-            android:title="@string/other"
-            android:fragment="com.android.systemui.tuner.OtherPrefs" />
+        android:key="other"
+        android:title="@string/other"
+        android:fragment="com.android.systemui.tuner.OtherPrefs" />
 
 </PreferenceScreen>

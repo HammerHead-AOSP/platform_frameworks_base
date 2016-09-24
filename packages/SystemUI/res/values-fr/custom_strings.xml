@@ -5,6 +5,8 @@
 <string name="powermenu_frag_title">"Menu d\'alimentation"</string>
 <string name="power_category">"Options du menu d'alimentation"</string>
 <string name="actions_category">"Éléments du menu d'alimentation"</string>
+
+<!-- Power menu customization -->
 <string name="power_menu_reboot_title">"Redémarrer"</string>
 <string name="power_menu_screenshot_title">"Capture d'écran"</string>
 <string name="power_menu_torch_title">"Lampe de poche"</string>
@@ -56,4 +58,27 @@
 <!-- Lockscreen torch -->
 <string name="keyguard_torch_title">"Lampe torche sur l'écran de verrouillage"</string>
 <string name="keyguard_torch_summary">"Appui long sur le bouton d'alimentation avec l'écran éteint pour allumer la lampe torche"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"Animation Fantaisie"</string>
+<string name="sysui_qs_move_whole_rows_title">"Déplacer les lignes entières"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"Tuiles rapides comptent"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5 (par défaut)"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"Appui double pour mettre en veille"</string>
+<string name="double_tap_sleep_anywhere_summary">"Taper deux fois n'importe où sur l'écran de verrouillage pour mettre l'appareil en veille"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"Barre d'état"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"Taper deux fois pour mettre en veille"</string>
+<string name="double_tap_to_sleep_summary">"Taper deux fois sur la barre d'état pour mettre l'appareil en veille"</string>
 </resources>

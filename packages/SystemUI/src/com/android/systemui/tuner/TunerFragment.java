@@ -35,7 +35,7 @@ import com.android.systemui.R;
 
 public class TunerFragment extends PreferenceFragment {
 
-    public static final String TAG = "TunerFragment";
+    private static final String TAG = "TunerFragment";
 
     private static final String KEY_BATTERY_PCT = "battery_pct";
 

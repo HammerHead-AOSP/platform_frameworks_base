@@ -5,6 +5,8 @@
 <string name="powermenu_frag_title">"MatinimoMeniu"</string>
 <string name="power_category">"Maitinimo meniu parinktys"</string>
 <string name="actions_category">"Maitinimo meniu elementai"</string>
+
+<!-- Power menu customization -->
 <string name="power_menu_reboot_title">"Paleidimo iš naujo meniu"</string>
 <string name="power_menu_screenshot_title">"Ekrano nuotrauka"</string>
 <string name="power_menu_torch_title">"Žibintuvėlis"</string>
@@ -56,4 +58,27 @@
 <!-- Lockscreen torch -->
 <string name="keyguard_torch_title">"Ekrano užrakto žibintuvėlis"</string>
 <string name="keyguard_torch_summary">"Ilgas maitinimo mygtuko paspaudimas su išjungtu ekranu įjungia žibintuvėlį"</string>
+
+<!-- QS Tuner -->
+<string name="sysui_qs_fancy_anim_title">"Fancy animācija"</string>
+<string name="sysui_qs_move_whole_rows_title">"Pārvietot veselas rindas"</string>
+
+<!-- - Small tiles count -->
+<string name="sysui_qqs_count_title">"Ātrās flīzes skaits"</string>
+<string name="sysui_qqs_count_3">"3"</string>
+<string name="sysui_qqs_count_4">"4"</string>
+<string name="sysui_qqs_count_5_default">"5 (noklusējums)"</string>
+<string name="sysui_qqs_count_6">"6"</string>
+<string name="sysui_qqs_count_7">"7"</string>
+
+<!-- Lockscreen tap-to sleep -->
+<string name="double_tap_sleep_anywhere_title">"Dukart spustelėti, kad užmigdyti"</string>
+<string name="double_tap_sleep_anywhere_summary">"Dukart palieskite bet kurioje ekrano užrakto vietoje, kad užmigdytumėte įrenginį"</string>
+
+<!-- statusbar fragment -->
+<string name="statusbar_frag_title">"Būsenos juosta"</string>
+
+<!-- double tap to sleep - statusbar -->
+<string name="double_tap_to_sleep_title">"Paliesti ir užmigdyti"</string>
+<string name="double_tap_to_sleep_summary">"Dukart paliesti ant būsenos juostos, kad užmigdytumėte įrenginį"</string>
 </resources>
